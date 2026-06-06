@@ -1,80 +1,81 @@
-# 🌸 Project 2 - Machine Learning Classification (Iris Dataset)
+# 🤖 Nova Chatbot
 
 ---
 
-## 📌 Overview
-This project demonstrates a complete Machine Learning pipeline using the Iris dataset.
+## 📌 Project Overview
+Nova is a Rule-Based AI Chatbot built using Python.
 
-The workflow includes:
-- Data Exploration (EDA)
-- Data Visualization
-- Data Preprocessing
-- Training Machine Learning Models
-- Model Evaluation and Comparison
+The chatbot simulates a conversational assistant capable of understanding simple user intents, remembering user information, and providing personalized responses.
+
+This project was developed as part of an AI internship to explore the fundamentals of conversational AI systems.
 
 ---
 
-## 🧠 Dataset
-We use the famous Iris dataset:
-- 150 samples
-- 3 classes: Setosa, Versicolor, Virginica
-- 4 features: Sepal length, Sepal width, Petal length, Petal width
+## ✨ Features
 
----
-
-## 📊 Project Steps
-
-### 1️⃣ Load Data
-- Dataset loaded using `sklearn.datasets`
-
-### 2️⃣ Exploratory Data Analysis (EDA)
-- Data information
-- Statistical summary
-- Class distribution analysis
-
-### 3️⃣ Data Visualization
-- Pairplot visualization
-- Correlation heatmap
-- Class distribution plots
-
-### 4️⃣ Data Preprocessing
-- Feature scaling using StandardScaler
-
-### 5️⃣ Machine Learning Models
-- Decision Tree Classifier
-- K-Nearest Neighbors (KNN)
-- Logistic Regression
-
-### 6️⃣ Model Evaluation
-- Accuracy score
-- Confusion Matrix
-- Model comparison
+- 👋 Greeting detection (Hello, Hi, Hey)
+- 🧠 Remembers the user's name
+- 💬 Personalized responses
+- 📖 Built-in help system
+- 🎯 Intent-based response handling
+- 🤖 Friendly chatbot personality
 
 ---
 
 ## 🛠️ Technologies Used
-- Python 🐍
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+
+- Python 3
+- Standard Python Libraries
+
+---
+
+## 📁 Project Structure
+
+```text
+nova-chatbot/
+│
+├── chatbot.py
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
 
 ---
 
 ## ▶️ How to Run
 
 ```bash
-python model.py
-````
+python chatbot.py
+```
+
+---
+
+## 💡 Example Conversation
+
+```text
+You: Hi
+Nova: Hello! What's your name?
+
+You: My name is Kenzy
+Nova: Nice to meet you, Kenzy!
+
+You: Help
+Nova: I can greet you, remember your name, and respond to simple questions.
+```
 
 ---
 
 ## 📌 Notes
 
-* Ensure all required libraries are installed
-* Dataset is built-in (no external files needed)
-* Results may vary slightly depending on random state
+- No external libraries are required
+- The chatbot is rule-based and does not use machine learning
+- Designed for educational purposes and AI fundamentals learning
+
+---
+
+## 🖼️ Screenshots
+
+![Screenshot 1](1.png)  
 
 ---
 
